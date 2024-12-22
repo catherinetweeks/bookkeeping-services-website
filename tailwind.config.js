@@ -3,12 +3,20 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{html,js}"],
   theme: {
     colors: {
-      'navy' : '#152942',
-      'teal' : '#284B63',
-      'grey' : '#EEF0EB',
-      'coral' : '#FA9173'
+      'Navy' : '#152942',
+      'Teal' : '#284B63',
+      'Grey' : '#F1F1F1',
+      'Coral' : '#FA9173',
     },
-    extend: {},
+
+    extend: {
+      fontFamily: {
+        sans: ['"DM Sans"', 'sans-serif'],
+        serif: ['"DM Serif Display"', 'serif'],
+      },
+    },
   },
+
   plugins: [],
+
 }

@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karyn Weeks Bookkeeping</title>
+    <!-- import fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- link to tailwind -->
     <link href="./src/output.css" rel="stylesheet">
-
 </head>
-<body>
-    <div class="text-center bg-navy text-white p-4 rounded">
-        Tailwind is working!
-      </div>
+
+<div id="navigation" class="sticky bg-Grey p-5 text-Navy">
+    <nav class="flex items-center justify-between">
+        <!-- left section -->
+        <button href="#herosection" class="font-serif text-lg">
+            <span class="font-serif italic">Karyn Weeks</span> Bookkeeping
+        </button>
+        <!-- right section -->
+        <div id="buttons" class="flex gap-10 font-sans">
+            <button href="#about">About</button>
+            <button href="#services">Services</button>
+            <button href="#FAQ">FAQs</button>
+            <button href="#contact">Contact</button>
+        </div>
+    </nav>
+</div>
+
+    <div id="herosection" class="bg-Navy">
+        <!-- <img src="images/headshot.jpeg" alt="Karn Weeks" width="500" height="600"> -->
+    </div>
+    <div id="whyus">
+    </div>
+    </div>
       
-    
+
 </body>
 </html>
+
+<!-- when restarting vscode: npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
